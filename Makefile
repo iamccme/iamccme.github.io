@@ -85,6 +85,6 @@ s3_upload: publish
 	s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed
 
 github: publish
-	git add . ; cd OUTPUTDIR ; git commit -am 'your comments' ; git push
+	git add . ; cd OUTPUTDIR ; git commit -am 'your comments' ; git push -f
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload github
