@@ -9,7 +9,7 @@ SITEURL = ''
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
-THEME = 'bootstrap2'
+THEME = 'tuxlite_tbs'
 DISQUS_SITENAME = 'iamccme'
 GOOGLE_ANALYTICS = 'UA-43278130-1'
 # Feed generation is usually not desired when developing
