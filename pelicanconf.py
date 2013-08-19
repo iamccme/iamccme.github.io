@@ -45,8 +45,7 @@ LINKS =  (('Google', 'https://www.google.com/ncr'),
 # Social widget
 SOCIAL = (('Github', 'https://github.com/lizherui'),
           ('Twitter', 'https://twitter.com/iamccme'),
-          ('Weibo', 'http://weibo.com/iamccme'),
-         )
+          ('Weibo', 'http://weibo.com/iamccme'))
 
 DEFAULT_PAGINATION = 10
 
